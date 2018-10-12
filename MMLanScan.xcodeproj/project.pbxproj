@@ -25,8 +25,9 @@
 		5426BC7A1E766603003D7F4B /* NetworkCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5426BC651E766603003D7F4B /* NetworkCalculator.m */; };
 		5426BC7B1E766603003D7F4B /* PingOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5426BC661E766603003D7F4B /* PingOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5426BC7C1E766603003D7F4B /* PingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5426BC671E766603003D7F4B /* PingOperation.m */; };
-		AAAD1614217075ED0015ABB7 /* MMDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = AAAD1612217075ED0015ABB7 /* MMDevice.h */; };
+		AAAD1614217075ED0015ABB7 /* MMDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = AAAD1612217075ED0015ABB7 /* MMDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAAD1615217075ED0015ABB7 /* MMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAD1613217075ED0015ABB7 /* MMDevice.m */; };
+		AAAD161921707E930015ABB7 /* MMLanScan.h in Headers */ = {isa = PBXBuildFile; fileRef = AAAD161821707E930015ABB7 /* MMLanScan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,8 @@
 		5426BC671E766603003D7F4B /* PingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingOperation.m; sourceTree = "<group>"; };
 		AAAD1612217075ED0015ABB7 /* MMDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDevice.h; sourceTree = "<group>"; };
 		AAAD1613217075ED0015ABB7 /* MMDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDevice.m; sourceTree = "<group>"; };
+		AAAD161821707E930015ABB7 /* MMLanScan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMLanScan.h; sourceTree = "<group>"; };
+		AAAD161A2170818D0015ABB7 /* MMLanScan.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = MMLanScan.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				5426BC5D1E766603003D7F4B /* Misc */,
 				5426BC681E766603003D7F4B /* Objects */,
 				5426BC491E7665F0003D7F4B /* Info.plist */,
+				AAAD161821707E930015ABB7 /* MMLanScan.h */,
+				AAAD161A2170818D0015ABB7 /* MMLanScan.modulemap */,
 			);
 			path = MMLanScan;
 			sourceTree = "<group>";
@@ -177,12 +182,13 @@
 				5426BC791E766603003D7F4B /* NetworkCalculator.h in Headers */,
 				5426BC7B1E766603003D7F4B /* PingOperation.h in Headers */,
 				5426BC711E766603003D7F4B /* SimplePing.h in Headers */,
-				AAAD1614217075ED0015ABB7 /* MMDevice.h in Headers */,
 				5426BC771E766603003D7F4B /* MMLANScanner.h in Headers */,
 				5426BC701E766603003D7F4B /* route.h in Headers */,
 				5426BC6F1E766603003D7F4B /* if_ether.h in Headers */,
 				5426BC751E766603003D7F4B /* MACOperation.h in Headers */,
+				AAAD1614217075ED0015ABB7 /* MMDevice.h in Headers */,
 				5426BC6E1E766603003D7F4B /* if_arp.h in Headers */,
+				AAAD161921707E930015ABB7 /* MMLanScan.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
